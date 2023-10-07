@@ -29,3 +29,48 @@ int main()
     cout<<Charlie(name)<<"!";
     return 0;
 }
+7)
+double Echo(int n1,int n2,int n3)
+{
+    double r;
+    r=(double)(n1+n2+n3)/3;
+    return r;
+}
+int main()
+{
+    int n1,n2,n3;
+    cout<<"Enter 3 numbers to get the average of those numbers:\n";
+    cin>>n1>>n2>>n3;
+    cout<<"Average of "<<n1<<","<<n2<<","<<n3<<" is:"<<Echo(n1,n2,n3);
+    
+    return 0;
+}
+8)
+int absoluteValue(int n)
+{
+    return abs(n);
+}
+int main()
+{
+    int n;
+    cout<<"Enter a number to get the absolute value of that number:";
+    cin>>n;
+    cout<<"Absolute value of "<<n<<" is :"<<absoluteValue(n);
+    
+    return 0;
+}
+9)
+int Foxtrot(double d){
+    return (int)d;
+}
+10)
+string Golf(int n){
+    if(n%2==0) return "Even";
+    
+    return "Odd";
+}
+int main(){
+    cout<<Foxtrot(2.15)<<endl;
+    cout<<Golf(4);
+}
+
